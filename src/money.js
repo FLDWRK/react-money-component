@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import Currency from 'js-money/lib/currency';
 import accounting from 'accounting';
 
@@ -10,12 +11,10 @@ function formattedAmount(cents, currency) {
 }
 
 export default function Money({ cents, currency }) {
-  return (
-    <span>{formattedAmount(cents, currency)}</span>
-  );
+  return <span>{formattedAmount(cents, currency)}</span>;
 }
 
 Money.propTypes = {
-  cents: React.PropTypes.number.isRequired,
-  currency: React.PropTypes.string.isRequired,
+  cents: PropTypes.number.isRequired,
+  currency: PropTypes.string.isRequired
 };

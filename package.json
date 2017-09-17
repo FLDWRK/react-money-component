@@ -47,7 +47,6 @@
     "react": "^15.0.0"
   },
   "devDependencies": {
-    "js-money": "^0.6.0",
     "accounting": "^0.4.1",
     "babel": "^6.5.2",
     "babel-core": "^6.13.2",
@@ -66,12 +65,14 @@
     "istanbul": "^0.4.0",
     "istanbul-coveralls": "^1.0.3",
     "jest-cli": "^14.1.0",
+    "js-money": "^0.6.0",
+    "prop-types": "^15.5.10",
     "react": "^15.3.0",
     "react-addons-test-utils": "^15.3.0",
     "react-dom": "^15.3.0"
   },
   "dependencies": {
-    "js-money": "^0.6.0",
-    "accounting": "^0.4.1"
+    "accounting": "^0.4.1",
+    "js-money": "^0.6.0"
   }
 }
